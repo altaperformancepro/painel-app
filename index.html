@@ -5,41 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAINEL REP - ALTA PERFORMANCE (Executivo)</title>
     
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- 
-      === META TAGS PARA PWA (APP DE CELULAR) === 
-    -->
-    
-    <!-- Cor da barra de status do navegador (Android) -->
     <meta name="theme-color" content="#005A9C">
     
-    <!-- Link para o arquivo Manifest -->
     <link rel="manifest" href="manifest.json">
     
-    <!-- Tags para Apple (iOS) -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Painel Rep">
     
-    <!-- Ícone para Apple (iOS) - Usando placeholder -->
-    <link rel="apple-touch-icon" href="https://placehold.co/180x180/005A9C/FFFFFF?text=PR&font=poppins">
+    <link rel="apple-touch-icon" href="https://netserviços.my.canva.site/logo-painel-vendas">
     
-    <!-- 
-      === FIM DAS META TAGS PWA === 
-    -->
-
     <style>
         body {
             font-family: 'Poppins', sans-serif;
             background-color: #EEEEEE; 
         }
-
-        /* Estilos de Botão e Título 3D (mantidos) */
         .btn-3d {
             background-color: #005A9C; 
             box-shadow: 0 4px 0 #004175; 
@@ -55,7 +39,6 @@
             box-shadow: 0 0 0 #004175;
             transform: translateY(3px);
         }
-        
         .btn-3d-accent {
             background-color: #FF6600; 
             box-shadow: 0 4px 0 #CC5200; 
@@ -71,7 +54,6 @@
             box-shadow: 0 0 0 #CC5200;
             transform: translateY(3px);
         }
-
         .title-3d-primary {
             text-shadow: 
                 2px 2px 0px rgba(0, 0, 0, 0.1),
@@ -81,7 +63,6 @@
                 10px 10px 0px rgba(0, 0, 0, 0.02);
             color: #00508a; 
         }
-        
         .title-3d-secondary {
             text-shadow: 
                 1px 1px 0px rgba(0, 0, 0, 0.08),
@@ -91,17 +72,16 @@
         }
     </style>
 </head>
-<!-- Layout compacto (p-4, mb-6, gap-4) mantido -->
 <body class="flex flex-col items-center min-h-screen p-4 md:p-8">
 
-    <div class="text-center mb-6 md:mb-12">
+    <div class="text-center mb-6 md:mb-12 flex flex-col items-center">
+        <img src="URL_DA_SUA_LOGO.png" alt="Logo Painel Rep" class="h-20 w-20 mb-4 rounded-full shadow-lg">
+        
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 title-3d-primary">PAINEL REP</h1>
         <span class="text-lg sm:text-xl md:text-2xl font-light text-orange-600 tracking-widest uppercase title-3d-secondary">ALTA PERFORMANCE</span>
     </div>
-
     <div class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
         
-        <!-- Card 1: Lista de Preços -->
         <div class="bg-white rounded-xl shadow-lg flex flex-col justify-between p-4 sm:p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <h2 class="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-5 text-center uppercase">
                 <span class="block text-3xl sm:text-4xl mb-2 sm:mb-3">🏷️</span>
@@ -113,19 +93,17 @@
             </a>
         </div>
         
-        <!-- Card 2: Vídeo Rinosoro -->
         <div class="bg-white rounded-xl shadow-lg flex flex-col justify-between p-4 sm:p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <h2 class="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-5 text-center uppercase">
                 <span class="block text-3xl sm:text-4xl mb-2 sm:mb-3">🎥</span>
                 LAVAGEM NASAL RINOSORO
             </h2>
-            <a href="https://sistemashypera.github.io/videorinosorofinal/" target="_blank" rel="noopener noreferrer" 
+            <a href="httpsa://sistemashypera.github.io/videorinosorofinal/" target="_blank" rel="noopener noreferrer" 
                class="btn-3d-accent text-white font-medium py-2 sm:py-3 px-5 sm:px-6 rounded-lg w-full text-center text-base sm:text-lg">
                 Ver Vídeo
             </a>
         </div>
         
-        <!-- Card 3: Pedido PDV -->
         <div class="bg-white rounded-xl shadow-lg flex flex-col justify-between p-4 sm:p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <h2 class="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-5 text-center uppercase">
                 <span class="block text-3xl sm:text-4xl mb-2 sm:mb-3">🛒</span>
@@ -137,7 +115,6 @@
             </a>
         </div>
         
-        <!-- Card 4: Simulador Premiação -->
         <div class="bg-white rounded-xl shadow-lg flex flex-col justify-between p-4 sm:p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <h2 class="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-5 text-center uppercase">
                 <span class="block text-3xl sm:text-4xl mb-2 sm:mb-3">🏆</span>
