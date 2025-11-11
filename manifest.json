@@ -2,7 +2,7 @@
 "name": "Painel Rep - Alta Performance",
 "short_name": "Painel Rep",
 "description": "Painel de acesso rápido para representantes de Alta Performance.",
-"start_url": "./index.html",
+"start_url": "https://altaperformancepro.github.io/painel-app/",
 "display": "standalone",
 "background_color": "#EEEEEE",
 "theme_color": "#005A9C",
@@ -20,3 +20,4 @@
 ]
 
 }
+
