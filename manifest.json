@@ -8,16 +8,14 @@
 "theme_color": "#005A9C",
 "icons": [
 {
-"src": "https://www.google.com/search?q=https://placehold.co/192x192/005A9C/FFFFFF%3Ftext%3DPR%26font%3Dpoppins",
+"src": "https://netserviços.my.canva.site/logo-painel-vendas",
 "type": "image/png",
 "sizes": "192x192"
 },
 {
-"src": "https://www.google.com/search?q=https://placehold.co/512x512/005A9C/FFFFFF%3Ftext%3DPR%26font%3Dpoppins",
+"src": "https://netserviços.my.canva.site/logo-painel-vendas",
 "type": "image/png",
 "sizes": "512x512"
 }
 ]
-
 }
-
